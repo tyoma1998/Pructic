@@ -1,0 +1,27 @@
+.Container {
+  display: grid;
+
+  grid-template-areas:
+  "c b";
+  grid-template-rows: 12fr;
+  grid-template-columns: 10fr 3fr;
+  height: 100px;
+}
+
+.catalog {
+  grid-area: c;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 50px;
+}
+
+.basket {
+  grid-area: b;
+  background: rgb(10, 3, 53);
+}
+
+.content {
+  margin: 100%;
+  background: rgb(141, 81, 81);
+}
+ 
+
