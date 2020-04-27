@@ -2,12 +2,12 @@ import React from 'react'
 import classes from './icon.module.css'
 
 const Icon = props => {
-    {console.log(props.answer.id)}
+    
     return (
         <div className={classes.App}>
         <div className = {classes.Pok}>
           <div className = {classes.Img}>
-   
+          <img src={`/img/${props.answer.id}_big.jpg`} alt='products'></img>
           </div>
          <div className = {classes.Name}>
            <p>{props.answer.title}</p>
@@ -26,7 +26,7 @@ const Icon = props => {
            </p>
          </div>
          <div className = {classes.Button}>
-           <button>В</button>
+           <button>В корзину</button>
          </div>
          
    
